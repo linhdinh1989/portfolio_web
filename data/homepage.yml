@@ -1,0 +1,271 @@
+head:
+  title: "Linh Dinh's Portfolio"
+
+# showcase
+showcase:
+  enable: true
+  title: "Hello, I’m Linh Dinh."
+  subtitle: "Data Scientist and Epidemiologist"
+  description: "Linh is a health data scientist offering a blend of diverse expertise in clinical medicine and population health, study design and quantative data analysis."
+  # image:
+  #   x: "img/showcase/data-science.gif"
+  #   _2x: "img/showcase/data-science.gif"
+  # imageMobile:
+  #   x: "img/showcase/data-science.gif"
+  #   _2x: "img/showcase/data-science.gif"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact Linh"
+    URL: "mailto:linpearl.dl@gmail.com"
+
+  socialLinks:
+    - icon: "linkedin-line"
+      icon_pack: "icon"
+      URL: "https://www.linkedin.com/in/linh-dinh"
+
+    - icon: "github-line"
+      icon_pack: "icon"
+      URL: "https://github.com/linhdinh1989/"
+
+    - icon: "google-scholar "
+      icon_pack: "ai"
+      URL: "https://scholar.google.ca/citations?user=lFj669MAAAAJ&hl=en"
+
+#     - icon: "behance"
+#       URL: "https://www.behance.net"
+# 
+#     - icon: "youtube"
+#       URL: "https://www.youtube.com"
+# 
+#     - icon: "instagram"
+#       URL: "https://www.instagram.com"
+# 
+#     - icon: "facebook"
+#       URL: "https://www.facebook.com"
+# 
+#     - icon: "codepen"
+#       URL: "#"
+# 
+#     - icon: "yelp"
+#       URL: "https://www.yelp.com/"
+
+
+# about
+about:
+  enable: true
+  title: "Who am I?"
+  content: 
+    <p class="lead">
+    <strong>A data scientist:</strong> I love playing with data, working with stakeholders, and  making better decisions with data.
+    </p>
+    <p class="lead">
+    <strong>An epidemiologist:</strong> My research interests lie in not only predictive modeling but also causal inferences with proper study designs.
+    </p>
+    <p class="lead">
+    <strong>A health professional:</strong> Although no longer working in clinical setting, my passion doesn't change - only shifts from the health of individual patients to that of wider populations.
+    </p>
+
+  button:
+    icon: "icon-smile-fill"
+    btnText: "About Me"
+    URL: "https://www.linkedin.com/in/linh-dinh"
+  image:
+    x: "img/who-am-i/linh_dinh.jpg"
+    _2x: "img/who-am-i/linh_dinh.jpg"
+
+# experience
+experience:
+  enable: true
+  title: "Experience"
+  description: "Over six (6) years of research experience in designing and implementing studies and analyzing quantitative observational and randomized trial data. Well-versed in statistical and mathematical modeling, including linear and non-linear mixed models, multivariate analyses, causal inferences, and predictive modeling."
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/in/linh-dinh"
+  
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Download My Resume"
+    URL: "/cv/Linh_Dinh_resume.pdf"
+
+  items:
+    - title: "Senior Statistician"
+      company: "IQVIA, Canada"
+      duration: "Apr 2022 - present"
+    - title: "Senior Statistician"
+      company: "Abbott Point of Care, Canada"
+      duration: "Sep 2020 - Mar 2022"
+      
+    - title: "Adjunct Lecturer"
+      company: "Thai Binh University of Medicine and Pharmacy, Vietnam"
+      duration: "Nov 2018 - present"
+      
+    - title: "Graduate Research Assistant"
+      company: "Georgia State University, USA"
+      duration: "Aug 2016 - May 2020"
+
+    - title: "Intern"
+      company: "World Health Organization, Switzerland"
+      duration: "Jan 2016 - Feb 2020"
+
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: "Georgia Institute of Technology, USA"
+      year: "2020 - present"
+      degree: "Master of Science in Analytics"
+
+    - university: "Georgia State University, USA"
+      year: "2016 - 2021"
+      degree: "Ph.D. in Public Health"
+      
+    - university: "Hebrew University of Jeruslaem, Israel"
+      year: "2014 - 2015"
+      degree: "Master of Public Health (MPH)"
+      
+    - university: "Hanoi Medical University, Vietnam"
+      year: "2007 - 2013"
+      degree: "Doctor of Dental Surgery (DDS)"
+
+
+
+# Client & Work
+client_and_work:
+  title: "Portfolio"
+  enable: true
+  
+  enable_clients: false
+  clients:
+    
+    - logo:
+        x: "img/clients/ztos.png"
+        _2x: "img/clients/ztos@2x.png"
+      alt: "Ztos"
+
+  works:
+    - title: "Fitting a Bayesian compartment model"
+      description: "This work fits a compartment model to the U.S. tuberculosis epidemic, using a Bayesian framework and written in Julia."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Github Repo"
+        URL: "https://github.com/linhdinh1989/Bayesian/tree/main/Compartment%20Model"
+      image:
+        x: "img/works/TB.PNG"
+        _2x: "img/works/TB.PNG"
+      is_even: true
+    - title: "Infectious Disease Forecasting"
+      description: "This application allows user to forecast the trend of country-level COVID-19 pandemic (pre-loaded) or other diseases (user-uploaded data), using phenomenological growth models. The application is built with Python and Shiny Dashboards."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Launch Application"
+        URL: "https://covidforecasting.shinyapps.io/cse6242-project/"
+      image:
+        x: "img/works/covid.PNG"
+        _2x: "img/works/covid.PNG"
+      is_even: true
+
+    - title: "COVID-19 Summary Dashboard"
+      description: "This application summarises key information of the COVID-19 pandemic at the country and global levels."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Launch Application"
+        URL: "https://ldinh.shinyapps.io/covid_dashboard/"
+      image:
+        x: "img/works/covid2.PNG"
+        _2x: "img/works/covid2.PNG"
+      is_even: false
+      
+    - title: "Latent Transition Analysis of Frailty in European Elderly"
+      description: "This project looks for underlying homogeneous subgroups of frailty and investigate the progression of frailty over time in the elderly, by using latent transition analysis (LTA). The project uses LatentGOLD for LTA analysis, and R for data wrangling, descriptive analysis and visualization."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Github Repo"
+        URL: "https://github.com/linhdinh1989/frailty_LTA"
+      image:
+        x: "img/works/Latent_profile.PNG"
+        _2x: "img/works/Latent_profile.PNG"
+      is_even: true
+        
+        
+    - title: "Cross-national comparison of frailty trajectories: An age-period-cohort (APC) analysis"
+      description: "This project uses mixed-effects beta regression (since the outcome (frailty index) is bounded in [0, 1]) in APC framework to investigate frailty trajectories of different birth cohorts over time, and makes comparison between 9 European countries.The project uses R for analysis."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Github Repo"
+        URL: "https://github.com/linhdinh1989/age_period_cohort_betareg"
+      image:
+        x: "img/works/frailty.png"
+        _2x: "img/works/frailty.png"        
+      is_even: false        
+      
+    - title: "Excess Mortality Rates"
+      description: "This project analyzes excess mortality rates due to influenza in Spain. The project applies the Serfling regression (Poisson and Negative Binomial Regression with seasonal components) to estimate excess deaths accountable to influenza outbreaks. The method and code can be applied to other disease outbreaks/pandemics. R is used for this project; SAS macro is also available."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Github Repo"
+        URL: "https://github.com/linhdinh1989/excess_mortality_rate"
+      image:
+        x: "img/works/Serfling.PNG"
+        _2x: "img/works/Serfling.PNG"
+      is_even: true
+      
+    - title: "Predicting the 2-year Risk of Fall in Community-Dwelling Older Americans"
+      description: "This project utilize data from the Health and Retirement Survey (HRS) to predict the 2-year fall risk of Americans aged 65 or older, using  logistic regression (LR), k-nearest neighbors (KNN), Support Vector Machine (SVM), random forest (RF), multilayer perceptron (MLP) with two hidden layers of size (20, 20). This project uses R and Python for analysis."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Read Report"
+        URL: "/works/Project_report_Linh.pdf"
+      image:
+        x: "img/works/cs6740.PNG"
+        _2x: "img/works/cs6740.PNG"
+      is_even: false
+      
+# testimonial
+testimonial:
+  enable: false
+  title: "Testimonials"
+  items:
+
+    - name: "Justin Kurland, PhD"
+      position: "Lead Data Scientist, Northwestern Mutual"
+      content: "In less than 6 months after starting my first Business Science Course with Matt I had fully transitioned into a role as a lead data scientist and my life is better for it!"
+      image:
+        x: "img/testimonials/justin.jpg"
+        _2x: "img/testimonials/justin.jpg"
+
+# contact
+contact:
+  enable: true
+  title: "Contact Linh"
+  
+  form:
+    action: "#"
+    full_name: "Full Name"
+    email: "Email Address"
+    message: "Type Your Message Here"
+  # phone:
+  #   title: "Phone Number"
+  #   number: "---"
+  email:
+    title: "Email"
+    email: '<a href="mailto:linpearl.dl@gmail.com">linpearl.dl@gmail.com</a>'
+  address:
+    title: "Address"
+    address: "Kanata, ON, Canada"
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
+
+  
+  
+
+# newsletter 
+newsletter:
+  enable: false
+  title: "Newsletter subscription"
+  success_message: "Successfully subscribed"
+  error_message: "Error while subscribing."
+  note: "We'll never share your email with anyone else."
